@@ -6,7 +6,7 @@ int main(){
     cout<<"Enter the number:";
     cin>>n;
 
-    if ( num < 0 ){
+    if ( n < 0 ){
         n = - n;
     }
     if (n==0){
