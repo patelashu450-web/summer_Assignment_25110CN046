@@ -19,7 +19,7 @@ int main(){
         }
     }
     if ( isPrime){
-        cout<< n<< "is a prime no." <<endl;
+        cout<< n<< " is a prime no." <<endl;
     }else{
         cout << n << "is not a prime number."<<endl;
     }
