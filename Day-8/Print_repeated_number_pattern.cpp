@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int steps ;
-    cout<< "Half pyramid pattern of steps: ";
+    cout<< "repeated number pattern of steps: ";
     cin>> steps;
     
     for(int i=1 ; i<= steps ; i++){
