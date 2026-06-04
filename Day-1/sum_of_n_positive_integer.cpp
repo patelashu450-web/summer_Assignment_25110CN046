@@ -7,7 +7,6 @@ int main() {
     cout << "Enter a positive integer: ";
     cin >> n;
 
-    // Loop from 1 to n and add each i to sum
     for ( i = 1; i <= n; ++i) {
         sum += i;
     }
