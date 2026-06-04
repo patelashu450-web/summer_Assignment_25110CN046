@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int steps ;
+    cout<< "Half pyramid pattern of steps: ";
+    cin>> steps;
+    
+    for(int i=1 ; i<= steps ; i++){
+       for(int j=1 ; j<=i ; j++) {
+        cout << "*";
+       } 
+       cout<< "\n"; 
+    }
+    return 0;
+}
